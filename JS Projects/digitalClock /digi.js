@@ -1,3 +1,5 @@
+function showTime()
+{
 let date = new Date();
 let h = date.getHours();
 let m = date.getMinutes();
@@ -8,3 +10,5 @@ console.log(screenTime);
 
 
 document.getElementById("time").innerHTML = screenTime;
+}
+
