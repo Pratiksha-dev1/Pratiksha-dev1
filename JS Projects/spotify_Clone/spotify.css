@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
+body {
+    background-color: beige;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+font-family: "PT Serif", serif;
+
+}
+nav ul {
+display: flex;
+list-style-type: none;
+background-color: black;
+color: white;
+height: 55px;
+align-items: center;
+
+}
+
+nav ul li {
+    padding: 0 14px;
+}
+
+.logo img{
+    width: 50px;
+    padding: 0 14px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+.container{
+
+    height: 75vh;
+}
+.bottom {
+    background-color: black;
+    height: 80px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressBar{
+    width: 80vw;
+
+}
