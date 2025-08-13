@@ -42,19 +42,81 @@ nav ul li {
 
 .container{
 
-    height: 75vh;
+    height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%;
+    margin: 23px  auto;
+    border-radius: 12px;
+    background-image: url(albumCover.jpg);
 }
 .bottom {
     background-color: black;
-    height: 80px;
+    color: white;
+    height: 150px; /*made changes by me*/
     position: sticky;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i {
+    cursor: pointer;
 }
 
 #progressBar{
     width: 80vw;
 
+}
+
+.songItem{
+height: 35px;
+display: flex;
+background-color: rgba(87, 87, 255, 0.692);
+width: 60%;
+color: rgb(0, 0, 0);
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 5px;
+}
+
+.songitemContainer{
+margin-top: 25px;
+
+padding: 10px;
+}
+
+.songItem img{ 
+    width: 38px; 
+    margin: 0 23px;
+    border-radius: 14px;
+    
+}
+
+.timestamp{
+    margin: 0 20px;
+}
+
+.timestamp i{
+   cursor: pointer;
+}
+
+.songnfo{
+    padding: 10px;
+    position: absolute;
+    left: 4vw;
+    
+}
+
+.songnfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    
 }
